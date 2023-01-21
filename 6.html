@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <form>
+        <header>
+            The World of Fruit
+        </header>
+        <h4>Fruit Survey</h4>
+        <table>
+            <tr>
+                <td class="labels"><label for="name" class="lab">Name</label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td class="labels"><label for="add" class="lab">Address</label></td>
+                <td><input type="text" id="address" name="add"></td>
+            </tr>
+            <tr>
+                <td class="labels"><label for="email" class="lab">Email</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td class="labels"><label for="fno" class="lab">How many pieces of fruit do you eat per day?</label>
+                </td>
+                <td rowspan="5"><input type="radio" name="fno" value="0" id="v0" class="radio">
+                    <label for="v0">0</label><br>
+                    <input type="radio" name="fno" value="1" class="radio" id="v1">
+                    <label for="v1">1</label><br>
+                    <input type="radio" name="fno" value="2" class="radio" id="v2">
+                    <label for="v2">2</label><br>
+                    <input type="radio" name="fno" value="More than 2" class="radio" id="v2g">
+                    <label for="v2g">More than 2</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="labels"><label for="fav" class="lab">My favourite fruit</label></td>
+                <td rowspan="6"><select id="fav" name="fav" size="4">
+                        <option value="apple">Apple</option>
+                        <option value="banana">Banana</option>
+                        <option value="plum">Plum</option>
+                        <option value="pomegranate">Pomegranate</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="labels"><label for="bro" class="lab">Would you like a brochure?</label></td>
+                <td><input type="checkbox" id="bro" name="bro"></td>
+            </tr>
+            <td></td>
+            <td><input type="submit"></td>
+        </table>
+    </form>
+</body>
+
+</html>

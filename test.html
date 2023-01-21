@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<form title="The World of Fruit" name="The World of Fruit">
+    <h3>The World of Fruit</h3>
+    <h4>Fruit Survey</h4>
+    <div class="flex-container">
+        <div class="col1">
+            <label for="name" class="lab">Name</label>
+            <label for="add" class="lab">Address</label>
+            <label for="email" class="lab">Email</label>
+            <label for="fno" class="lab">How many pieces of fruit do you eat per day?</label>
+            <label for="fav" class="lab">My favourite fruit</label>
+
+        </div>
+        <div class="col1">
+            <input type="text" id="name" name="name"><br>
+            <input type="text" id="address" name="add"><br>
+            <input type="email" id="email" name="email"><br>
+            <div class="rad">
+                <input type="radio" name="fno" value="0" id="v0" class="radio">
+                <label for="v0">0</label>
+                <input type="radio" name="fno" value="1" class="radio" id="v1">
+                <label for="v1">1</label>
+                <input type="radio" name="fno" value="2" class="radio" id="v2">
+                <label for="v2">2</label>
+                <input type="radio" name="fno" value="More than 2" class="radio" id="v2g">
+                <label for="v2g">More than 2</label>
+                <label for="bro" class="lab">Would you like a brochure?</label>
+            </div>
+            <select id="fav" name="fav" size="4">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="plum">Plum</option>
+                <option value="pomegranate">Pomegranate</option>
+            </select>
+            <input type="checkbox" id="bro" name="bro">
+        </div>
+
+        <br><input type="submit">
+
+
+</form>
+
+</html>
