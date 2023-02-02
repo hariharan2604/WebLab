@@ -1,0 +1,14 @@
+h2 {
+    font-family: 'Times New Roman';
+}
+.para {
+    background-color: rgb(231, 224, 224);
+}
+
+.p2 {
+    border-top: 6px dotted;
+    border-bottom: 4px dashed;
+    border-left: 4px solid;
+    border-right: 4px solid;
+    padding: 2px;
+}
