@@ -1,5 +1,6 @@
 .background {
     background-color: gray;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .back {
@@ -29,9 +30,11 @@
     color: white;
     background-color: green;
     margin: 5px;
+    /* margin-bottom: 150%; */
     padding: 20px;
     font-size: 30pt;
+    max-height: 125px;
     font-family: 'Times New Roman', Times, serif;
-    height: 50%;
+
     /* max-height: 35%; */
 }
