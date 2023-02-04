@@ -1,9 +1,9 @@
-li{
+li {
     white-space: nowrap;
 
 }
 
-.headings{
+.headings {
     background-color: rgba(201, 195, 195, 0.578);
     margin: 0px;
     padding: 5px;
@@ -11,20 +11,18 @@ li{
     font-size: 20px;
 }
 
-strong{
+strong {
     font-size: 35px;
     color: black;
 }
 
-.price{
+.price {
     color: grey;
     font-size: 30px;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
 
-.dis{
+.dis {
     max-width: 80%;
 }
-
-
