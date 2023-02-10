@@ -24,17 +24,17 @@ ul{
     padding: 20px;
 }
 .stand{
-    background-color: rgba(236, 108, 33, 0.911);
+    background-color: #609EA2;
     font-family: 'Nanum Gothic', sans-serif;
 }
 
 .ench{
-    background-color: rgb(255, 0, 123);
+    background-color: #C92C6D;
     font-family: 'Nanum Gothic', sans-serif;
 }
 
 .unlim{
-    background-color: rgb(51, 225, 51);
+    background-color: #913175;
     font-family: 'Nanum Gothic', sans-serif;
 }
 
@@ -45,5 +45,6 @@ ul{
 }
 
 .box{
-    background-image: linear-gradient(rgba(107, 104, 104, 0.406),rgba(221, 215, 215, 0.822));
+    /* background-image: linear-gradient(rgba(107, 104, 104, 0.406),rgba(221, 215, 215, 0.822)); */
+    background-image: linear-gradient(#000C40,#F0F2F0);
 }
